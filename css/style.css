@@ -138,3 +138,23 @@ button{
     justify-content: space-between;
     margin-top: 88px;
 }
+
+/* foooter_________conteiner */
+
+#footer_box{
+    display: flex;
+    height: 64px;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 463px;
+    border-top: 1px solid #261C51
+}
+
+#footer_p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
