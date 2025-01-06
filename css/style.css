@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+#full_stack_conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    background: #07081A;
+}
+
+
+ /* header__________conteeeeiner*/
+
+#header_nav_conteiner{
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border-bottom: 1px solid #261C51;
+}
+
+
+
+.logo_style{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+
+
+.nav_list{
+    color: #FFF;
+}
+
+
+
+.ul_class :hover{
+    color: #B968DE;
+}
+
+#nav_user{
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: #9100D3;
+    gap: 10px;
+}
+
+/* main_______________conteiner */
+
+#mainer_head{
+    max-width: 600px;
+    min-height: 240px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFF;
+    padding-bottom: 32px;
+}
+
+h1+p{
+    font-size: 16px;
+    color: #C0C0C0;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+
+button{
+    padding: 12px 24px;
+    width: 186px;
+    height: 48px;
+    gap: 10px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #9100D3;
+    border: 0;
+}
+
+#compans_logos{
+    display: flex;
+    height: 72px;
+    padding: 0px 72px 24px 72px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+    margin-top: 88px;
+}
+
+.logo_style{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.last_div_style{
+    display: flex;
+    padding: 16px 24px;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    font-size: 14px;
+    color: #C0C0C0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 304px;
+    height: 204px;
+}
+
+#boxes_conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}
